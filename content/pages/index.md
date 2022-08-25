@@ -33,9 +33,9 @@ blocks:
 meta:
   pageTitle: IPFS Camp 2022
   pageDescription: >-
-    PFS Camp 2022 is a gathering for the entire IPFS community: devs, operators,
-    implementers, researchers – and you! Join us for talks, workshops,
-    discussion circles, hacking time, and more, all focused on celebrating and
-    advancing IPFS.
+    IPFS Camp 2022 is a gathering for the entire IPFS community: devs,
+    operators, implementers, researchers – and you! Join us for talks,
+    workshops, discussion circles, hacking time, and more, all focused on
+    celebrating and advancing IPFS.
 ---
 

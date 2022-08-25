@@ -13,7 +13,7 @@ blocks:
       textStyles: 'text-white font-1 text-lg mb-11 '
       contentOrder: headingsContentLabel
     background:
-      fillStyles: bg-gray-dark
+      fillStyles: from-black to-accent2 bg-gradient-to-tr
     image:
       src: ''
       alt: Illustration of space shuttles

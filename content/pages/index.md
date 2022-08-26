@@ -94,7 +94,7 @@ blocks:
         subhead: ''
         text: |
           This is a rich text component you can add hyperlinks, etc.
-      - headline: Here's Another Card
+      - headline: Scholarship
         subhead: ''
         text: |
           This is a rich text component you can add hyperlinks, etc.

@@ -31,34 +31,6 @@ blocks:
       Tickets and call for proposals coming soon.
     _template: feature
   - style:
-      alignment: flex-row-reverse text-left items-center
-      featureContent: w-1/2 min-h-0
-      padding: pt-20 pb-20 pr-10 pl-20
-      featureImage: object-center object-scale-down
-      imagePadding: pt-20 pb-20 pr-20 pl-10
-      labelStyles: text-black font-1 text-sm mb-0
-      headlineStyles: text-black font-1 text-5xl mb-0
-      subheadStyles: text-black font-1 text-3xl mb-0
-      textStyles: text-black font-1 text-md mb-0
-      contentOrder: labelHeadingsContent
-    background:
-      fillStyles: bg-white
-    label: ''
-    headline: Register
-    subhead: ''
-    body: "Your ticket includes hotel accommodation for three nights at\_our incredible venue, transfers, all food and drinks, group activities and hacking sessions. Everything is taken care of so we can focus on building the future of the internet.\n"
-    buttons:
-      - label: Scholarship
-        link: /
-        type: primary
-      - label: 'Speaker '
-        link: /
-        type: primary
-      - label: Attendee
-        link: /
-        type: primary
-    _template: feature
-  - style:
       textAlignment: text-left
       minHeight: min-h-0
       padding: pt-20 pr-20 pb-20 pl-20
@@ -87,8 +59,7 @@ blocks:
       incredible venue, transfers, all food and drinks, group activities and
       hacking sessions. Everything is taken care of so we can focus on building
       the future of the internet.
-    body: |
-      This is a rich text component you can add hyperlinks, etc.
+    body: ''
     items:
       - headline: Speaker
         subhead: ''
@@ -98,7 +69,7 @@ blocks:
         subhead: ''
         text: |
           This is a rich text component you can add hyperlinks, etc.
-      - headline: Here's Another Card
+      - headline: General Pass
         subhead: ''
         text: |
           This is a rich text component you can add hyperlinks, etc.

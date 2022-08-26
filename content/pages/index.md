@@ -4,7 +4,7 @@ blocks:
   - style:
       alignment: 'flex-row-reverse text-left items-center items-start-vertical '
       featureContent: 'w-2/3 min-h-0 '
-      padding: 'pt-40 pb-40 pr-7 pl-9 sm:pt-20 sm:pb-20 sm:pr-8 sm:pl-8'
+      padding: 'pt-40 pb-40 pr-7 pl-24 sm:pt-20 sm:pb-20 sm:pr-8 sm:pl-24'
       featureImage: 'object-left object-contain '
       imagePadding: pt-0 pb-0 pr-0 pl-0
       labelStyles: text-white font-2 text-xl mb-0 font-bold
@@ -13,7 +13,7 @@ blocks:
       textStyles: 'text-white font-1 text-lg mb-11 '
       contentOrder: headingsContentLabel
     background:
-      fillStyles: from-black to-accent2 bg-gradient-to-tr
+      fillStyles: from-accent4 to-accent3 bg-gradient-to-tr
     image:
       src: ''
       alt: Illustration of space shuttles
@@ -37,5 +37,7 @@ meta:
     operators, implementers, researchers – and you! Join us for talks,
     workshops, discussion circles, hacking time, and more, all focused on
     celebrating and advancing IPFS.
+  siteImageSrc: >-
+    https://res.cloudinary.com/protocolai/image/upload/v1661535824/ipfs-camp-og_dgigow.jpg
 ---
 

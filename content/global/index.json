@@ -1,17 +1,17 @@
 {
   "siteUrl": "camp.ipfs.io",
   "gtmId": "",
-  "favicon": "https://res.cloudinary.com/protocolai/image/upload/v1649882296/filecoin-favicon_rn3bfm.png",
+  "favicon": "https://res.cloudinary.com/protocolai/image/upload/v1661533809/ipfs-favicon_wmsq2f.png",
   "desktopWidth": "1200",
   "colors": {
     "primary": "#C33D04",
     "accent1": "#FDBD07",
     "accent2": "#3CD1F7",
-    "accent3": "#178309",
-    "accent4": "#1B69F0",
+    "accent3": "#439798",
+    "accent4": "#073A53",
     "white": "#FFFFFF",
     "grayLight": "#E5E2DF",
-    "gray": "#859CB5",
+    "gray": "#84A4B5",
     "grayDark": "#17191A",
     "black": "#000000"
   },
@@ -83,7 +83,7 @@
       "label": "",
       "headline": "",
       "subhead": "",
-      "body": "[IPFS Website](https://ipfs.tech/ \"IPFS Website\") | [Code of Conduct](https://camp.ipfs.io/code-of-conduct \"IPFS Camp code of conduct\")\n",
+      "body": "[IPFS Website](https://ipfs.tech/) | [Forum](https://discuss.ipfs.tech/) | [Code of Conduct](https://camp.ipfs.io/code-of-conduct)\n",
       "_template": "banner"
     }
   ]

@@ -37,5 +37,7 @@ meta:
     operators, implementers, researchers – and you! Join us for talks,
     workshops, discussion circles, hacking time, and more, all focused on
     celebrating and advancing IPFS.
+  siteImageSrc: >-
+    https://res.cloudinary.com/protocolai/image/upload/v1661535824/ipfs-camp-og_dgigow.jpg
 ---
 

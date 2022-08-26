@@ -140,6 +140,47 @@ blocks:
     body: |
       This is a rich text component you can add hyperlinks, etc.
     _template: feature
+  - style:
+      textAlignment: text-left
+      minHeight: min-h-0
+      padding: pt-20 pr-20 pb-20 pl-20
+      contentWidth: w-full
+      columns: '3'
+      labelStyles: text-black font-1 text-sm mb-0
+      headlineStyles: text-black font-1 text-5xl mb-0
+      subheadStyles: text-black font-1 text-3xl mb-0
+      textStyles: text-black font-1 text-md mb-0
+      contentOrder: labelHeadingsContent
+    cardStyle:
+      fillStyles: bg-gray
+      padding: pt-4 pr-4 pb-4 pl-4
+      type: solid
+      labelStyles: text-black text-sm mb-0
+      headlineStyles: text-black text-2xl mb-0
+      subheadStyles: text-black text-lg mb-0
+      textStyles: text-black text-sm mb-0
+      buttonType: solid
+    background:
+      fillStyles: bg-accent1
+    label: ''
+    headline: Team
+    subhead: Here is a subhead
+    body: |
+      This is a rich text component you can add hyperlinks, etc.
+    items:
+      - headline: Here's Another Card
+        subhead: ''
+        text: |
+          This is a rich text component you can add hyperlinks, etc.
+      - headline: Here's Another Card
+        subhead: ''
+        text: |
+          This is a rich text component you can add hyperlinks, etc.
+      - headline: Here's Another Card
+        subhead: ''
+        text: |
+          This is a rich text component you can add hyperlinks, etc.
+    _template: photoCards
 meta:
   pageTitle: IPFS Camp 2022
   pageDescription: >-

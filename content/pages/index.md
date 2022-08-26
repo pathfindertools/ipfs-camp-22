@@ -30,6 +30,79 @@ blocks:
 
       Tickets and call for proposals coming soon.
     _template: feature
+  - style:
+      alignment: flex-row-reverse text-left items-center
+      featureContent: w-1/2 min-h-0
+      padding: pt-20 pb-20 pr-10 pl-20
+      featureImage: object-center object-scale-down
+      imagePadding: pt-20 pb-20 pr-20 pl-10
+      labelStyles: text-black font-1 text-sm mb-0
+      headlineStyles: text-black font-1 text-5xl mb-0
+      subheadStyles: text-black font-1 text-3xl mb-0
+      textStyles: text-black font-1 text-md mb-0
+      contentOrder: labelHeadingsContent
+    background:
+      fillStyles: bg-white
+    label: ''
+    headline: Register
+    subhead: ''
+    body: "Your ticket includes hotel accommodation for three nights at\_our incredible venue, transfers, all food and drinks, group activities and hacking sessions. Everything is taken care of so we can focus on building the future of the internet.\n"
+    buttons:
+      - label: Scholarship
+        link: /
+        type: primary
+      - label: 'Speaker '
+        link: /
+        type: primary
+      - label: Attendee
+        link: /
+        type: primary
+    _template: feature
+  - style:
+      textAlignment: text-left
+      minHeight: min-h-0
+      padding: pt-20 pr-20 pb-20 pl-20
+      contentWidth: w-full
+      columns: '3'
+      labelStyles: text-black font-1 text-sm mb-0
+      headlineStyles: text-black font-1 text-5xl mb-0
+      subheadStyles: text-black font-1 text-3xl mb-0
+      textStyles: text-black font-1 text-md mb-0
+      contentOrder: labelHeadingsContent
+    cardStyle:
+      fillStyles: bg-gray
+      padding: pt-4 pr-4 pb-4 pl-4
+      type: solid
+      labelStyles: text-black text-sm mb-0
+      headlineStyles: text-black text-2xl mb-0
+      subheadStyles: text-black text-lg mb-0
+      textStyles: text-black text-sm mb-0
+      buttonType: solid
+    background:
+      fillStyles: bg-white
+    label: ''
+    headline: Register
+    subhead: >-
+      Your ticket includes hotel accommodation for three nights at our
+      incredible venue, transfers, all food and drinks, group activities and
+      hacking sessions. Everything is taken care of so we can focus on building
+      the future of the internet.
+    body: |
+      This is a rich text component you can add hyperlinks, etc.
+    items:
+      - headline: Speaker
+        subhead: ''
+        text: |
+          This is a rich text component you can add hyperlinks, etc.
+      - headline: Here's Another Card
+        subhead: ''
+        text: |
+          This is a rich text component you can add hyperlinks, etc.
+      - headline: Here's Another Card
+        subhead: ''
+        text: |
+          This is a rich text component you can add hyperlinks, etc.
+    _template: photoCards
 meta:
   pageTitle: IPFS Camp 2022
   pageDescription: >-

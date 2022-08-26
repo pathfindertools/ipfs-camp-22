@@ -28,7 +28,7 @@ blocks:
       all focused on celebrating and advancing IPFS.
 
 
-      Tickets and call for proposals coming soon.
+      Tickets and call for proposals coming soon
     _template: feature
 meta:
   pageTitle: IPFS Camp 2022

@@ -11,7 +11,7 @@
     "accent4": "#1B69F0",
     "white": "#FFFFFF",
     "grayLight": "#E5E2DF",
-    "gray": "#859CB5",
+    "gray": "#84A4B5",
     "grayDark": "#17191A",
     "black": "#000000"
   },
@@ -83,7 +83,7 @@
       "label": "",
       "headline": "",
       "subhead": "",
-      "body": "[IPFS Website](https://ipfs.tech/) | [Forum](https://discuss.ipfs.tech/ \"Forum\") | [Code of Conduct](https://camp.ipfs.io/code-of-conduct)\n",
+      "body": "[IPFS Website](https://ipfs.tech/) | [Forum](https://discuss.ipfs.tech/) | [Code of Conduct](https://camp.ipfs.io/code-of-conduct)\n",
       "_template": "banner"
     }
   ]

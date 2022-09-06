@@ -56,29 +56,45 @@ blocks:
     label: ''
     headline: 'Tickets '
     subhead: '  '
-    body: |
-      &#x20;
+    body: >
+      All tickets cover entry and meals throughout Oct 28-30 at the IPF Camp
+      venue. The ticket does not cover travel & accomodation.
     items:
-      - headline: General
+      - headline: General ($400)
         subhead: ''
-        text: ''
+        text: >
+          The essential ticket for attending IPFS Camp 2022. This is for
+          everyone!&#x20;
         link: 'https://lu.ma/ipfscamp22'
         buttonLabel: Purchase General Ticket
-      - headline: Builder
+      - headline: Builder ($200)
         subhead: ''
-        text: ''
+        text: >
+          A discounted ticket for community members and other contributors to
+          IPFS and related projects.&#x20;
         link: 'https://airtable.com/shrrtA8KQE9gmlAM3'
         buttonLabel: Apply for Builder Ticket
       - label: ''
-        headline: Student & Educator
+        headline: Student & Educator ($100)
         subhead: ''
-        text: ''
+        text: >
+          Limited tickets for students, educators and researchers who are
+          curious about IPFS & related or would like to contribute to it in the
+          future.
         link: 'https://airtable.com/shrBS3hLqKlnakxHB'
         buttonLabel: Apply for Academic Ticket
-      - headline: Volunteer
+      - headline: Volunteer (Free)
+        text: >
+          Limited tickets for community members who can volunteer for 2 x 2 hour
+          shifts for 3 days during the event + 10 hours pre event for briefing
+          calls and other tasks.&#x20;
         link: 'https://airtable.com/shrum6nLOI23vwIcJ'
         buttonLabel: Apply for Volunteer Ticket
-      - headline: IPFS Scholars
+      - headline: IPFS Scholars (Free)
+        text: >
+          This program is designed to provide an opportunity for individuals
+          from underrepresented communities, unique circumstances, or developing
+          areas to connect with and contribute to the IPFS ecosystem.&#x20;
         link: 'https://airtable.com/shrd4kSljHYHxmU1b'
         buttonLabel: Apply to IPFS Scholars Program
     navigationLabel: Tickets

@@ -30,6 +30,78 @@ blocks:
 
       Tickets and call for proposals coming soon.
     _template: feature
+  - style:
+      textAlignment: text-left
+      minHeight: min-h-0
+      padding: pt-20 pb-20 pr-20 pl-20
+      contentWidth: w-full
+      columns: '2'
+      labelStyles: 'text-black font-2 text-sm mb-0 '
+      headlineStyles: text-black font-2 text-5xl mb-0 font-bold
+      subheadStyles: 'text-black font-2 text-3xl mb-0 '
+      textStyles: 'text-black font-1 undefined mb-0 '
+      contentOrder: labelHeadingsContent
+    cardStyle:
+      fillStyles: bg-accent3
+      padding: 'pt-4 pb-4 pr-4 pl-4 sm:pt-1.5 sm:pb-1.5 sm:pr-1.5 sm:pl-1.5'
+      type: solid
+      imageStyles: ' undefined undefined undefined'
+      labelStyles: 'text-accent2 font-2 text-base mb-0 '
+      headlineStyles: 'text-white font-2 text-xl mb-0 '
+      subheadStyles: 'text-accent2 font-2 text-lg mb-0 '
+      textStyles: 'text-gray-light undefined text-sm mb-0 '
+      buttonType: secondary
+    background:
+      fillStyles: bg-white
+    label: ''
+    headline: 'Tickets '
+    subhead: '  '
+    body: |
+      &#x20;
+    items:
+      - headline: General
+        subhead: ''
+        text: ''
+        link: 'https://lu.ma/ipfscamp22'
+        buttonLabel: Purchase General Ticket
+      - headline: Builder
+        subhead: ''
+        text: ''
+        link: 'https://airtable.com/shrrtA8KQE9gmlAM3'
+        buttonLabel: Apply for Builder Ticket
+      - label: ''
+        headline: Student & Educator
+        subhead: ''
+        text: ''
+        link: 'https://airtable.com/shrBS3hLqKlnakxHB'
+        buttonLabel: Apply for Academic Ticket
+      - headline: Volunteer
+        link: 'https://airtable.com/shrum6nLOI23vwIcJ'
+        buttonLabel: Apply for Volunteer Ticket
+      - headline: IPFS Scholars
+        link: 'https://airtable.com/shrd4kSljHYHxmU1b'
+        buttonLabel: Apply to IPFS Scholars Program
+    navigationLabel: Tickets
+    _template: photoCards
+  - style:
+      alignment: 'flex-row-reverse text-left items-center items-start-vertical '
+      featureContent: 'w-1/2 min-h-0 '
+      padding: pt-20 pb-20 pr-10 pl-20
+      featureImage: 'object-center object-scale-down '
+      imagePadding: pt-20 pb-20 pr-20 pl-10
+      labelStyles: 'text-black font-2 text-sm mb-0 '
+      headlineStyles: text-black font-2 text-5xl mb-0 font-bold
+      subheadStyles: 'text-black font-1 text-3xl mb-0 '
+      textStyles: 'text-black font-1 undefined mb-0 '
+      contentOrder: labelHeadingsContent
+    background:
+      fillStyles: bg-gray-light
+    label: ''
+    headline: FAQs
+    subhead: ''
+    body: ''
+    navigationLabel: FAQs
+    _template: feature
 meta:
   pageTitle: IPFS Camp 2022
   pageDescription: >-

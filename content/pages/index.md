@@ -28,7 +28,7 @@ blocks:
       all focused on celebrating and advancing IPFS.
 
 
-      Tickets and call for proposals coming soon.
+      Call for proposals coming soon.
     _template: feature
   - style:
       textAlignment: text-left

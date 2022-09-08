@@ -2,9 +2,9 @@
 draft: true
 blocks:
   - style:
-      alignment: 'flex-row-reverse text-left items-center items-start-vertical '
+      alignment: 'flex-row-reverse text-left items-center items-start-vertical sm:flex-col'
       featureContent: 'w-full min-h-0 '
-      padding: pt-40 pb-40 pr-40 pl-24
+      padding: 'pt-40 pb-40 pr-40 pl-24 sm:pt-1 sm:pb-1 sm:pr-1 sm:pl-1'
       featureImage: 'object-left object-contain '
       imagePadding: pt-0 pb-0 pr-0 pl-0
       labelStyles: text-white font-2 text-xl mb-0 font-bold
@@ -32,23 +32,37 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: pt-20 pb-20 pr-40 pl-20
+      padding: 'pt-20 pb-20 pr-40 pl-20 sm:pt-1 sm:pb-1 sm:pr-1 sm:pl-1'
       contentWidth: w-full
       columns: '2'
       labelStyles: 'text-white font-2 text-sm mb-0 '
-      headlineStyles: text-black font-2 text-5xl mb-0 font-bold
-      subheadStyles: 'text-black font-2 text-3xl mb-0 '
-      textStyles: 'text-black font-1 undefined mb-0 '
+      headlineStyles: >-
+        text-black font-2 text-5xl mb-0 font-bold sm:text-black sm:font-2
+        sm:text-2xl sm:mb-0 sm:font-bold
+      subheadStyles: >-
+        text-black font-2 text-3xl mb-0  sm:text-black sm:font-2 sm:text-lg
+        sm:mb-0 
+      textStyles: >-
+        text-black font-1 undefined mb-0  sm:text-black sm:font-1 sm:text-xs
+        sm:mb-0 
       contentOrder: headingsContentLabel
     cardStyle:
       fillStyles: bg-accent3
-      padding: 'pt-4 pb-4 pr-4 pl-4 sm:pt-1.5 sm:pb-1.5 sm:pr-1.5 sm:pl-1.5'
+      padding: 'pt-4 pb-4 pr-4 pl-4 sm:pt-0.5 sm:pb-0.5 sm:pr-0.5 sm:pl-0.5'
       type: solid
       imageStyles: ' undefined undefined undefined'
-      labelStyles: 'text-accent2 font-2 text-base mb-0 '
-      headlineStyles: 'text-white font-2 text-xl mb-0 '
-      subheadStyles: 'text-accent2 font-2 text-lg mb-0 '
-      textStyles: 'text-gray-light undefined text-sm mb-0 '
+      labelStyles: >-
+        text-accent2 font-2 text-base mb-0  sm:text-accent2 sm:font-2
+        sm:text-base sm:mb-0 
+      headlineStyles: >-
+        text-white font-2 text-xl mb-0  sm:text-white sm:font-2 sm:text-xl
+        sm:mb-0 
+      subheadStyles: >-
+        text-accent2 font-2 text-lg mb-0  sm:text-accent2 sm:font-2 sm:text-lg
+        sm:mb-0 
+      textStyles: >-
+        text-gray-light undefined text-sm mb-0  sm:text-gray-light sm:font-1
+        sm:text-sm sm:mb-0 
       buttonType: secondary
     background:
       fillStyles: bg-white

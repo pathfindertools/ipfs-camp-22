@@ -3,8 +3,8 @@ draft: true
 blocks:
   - style:
       alignment: 'flex-row-reverse text-left items-center items-start-vertical '
-      featureContent: 'w-2/3 min-h-0 '
-      padding: 'pt-40 pb-40 pr-7 pl-24 sm:pt-20 sm:pb-20 sm:pr-8 sm:pl-24'
+      featureContent: 'w-full min-h-0 '
+      padding: pt-40 pb-40 pr-40 pl-24
       featureImage: 'object-left object-contain '
       imagePadding: pt-0 pb-0 pr-0 pl-0
       labelStyles: text-white font-2 text-xl mb-0 font-bold
@@ -20,20 +20,19 @@ blocks:
     label: ''
     headline: IPFS Camp 2022
     subhead: 'Oct 28-30, 2022 • Lisbon, Portugal'
-    body: >
-      IPFS Camp 2022 is a gathering for the entire IPFS community: devs,
-      operators, implementers, researchers – and you!
-
-      Join us for talks, workshops, discussion circles, hacking time, and more,
-      all focused on celebrating and advancing IPFS.
-
-
-      Call for proposals coming soon.
+    body: "IPFS Camp 2022 is a gathering for the entire IPFS community: devs, operators, implementers, researchers – and you!\nJoin us for talks, workshops, discussion circles, hacking time, and more, all focused on celebrating and advancing IPFS.\n\nTracks include:&#x20;\n\n\nContent Routing · Creatives & Artists & IPFS · Growing with IPFS · IPFS Implementers · IPFS Operators ·\_ IPFS User & Dev Tools for Fun & Awesome · IPFS Users Showcase · Learning IPFS · libp2p Builders · libp2p & IPFS Privacy · Measurement & Performance · New Problems in Decentralized Network Research · & more!\n"
+    buttons:
+      - label: Apply to Speak
+        link: 'https://airtable.com/shrOxmXUqwojf0Bjj'
+        type: secondary
+      - label: Apply to Lead a Track
+        link: 'https://airtable.com/shrBQqf7YJRPdrgUo'
+        type: secondary
     _template: feature
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: pt-20 pb-20 pr-20 pl-20
+      padding: pt-20 pb-20 pr-40 pl-20
       contentWidth: w-full
       columns: '2'
       labelStyles: 'text-white font-2 text-sm mb-0 '

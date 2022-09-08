@@ -4,7 +4,7 @@ blocks:
   - style:
       alignment: 'flex-row-reverse text-left items-center items-start-vertical sm:flex-col'
       featureContent: 'w-full min-h-0 '
-      padding: 'pt-40 pb-40 pr-40 pl-24 sm:pt-1 sm:pb-1 sm:pr-1 sm:pl-1'
+      padding: 'pt-40 pb-40 pr-40 pl-24 sm:pt-3 sm:pb-3 sm:pr-3 sm:pl-3'
       featureImage: 'object-left object-contain '
       imagePadding: pt-0 pb-0 pr-0 pl-0
       labelStyles: text-white font-2 text-xl mb-0 font-bold
@@ -48,9 +48,9 @@ blocks:
       contentOrder: headingsContentLabel
     cardStyle:
       fillStyles: bg-accent3
-      padding: 'pt-4 pb-4 pr-4 pl-4 sm:pt-0.5 sm:pb-0.5 sm:pr-0.5 sm:pl-0.5'
+      padding: 'pt-4 pb-4 pr-4 pl-4 sm:pt-2.5 sm:pb-2.5 sm:pr-2.5 sm:pl-2.5'
       type: solid
-      imageStyles: ' undefined undefined undefined'
+      imageStyles: ' object-contain undefined undefined'
       labelStyles: >-
         text-accent2 font-2 text-base mb-0  sm:text-accent2 sm:font-2
         sm:text-base sm:mb-0 
@@ -62,7 +62,7 @@ blocks:
         sm:mb-0 
       textStyles: >-
         text-gray-light undefined text-sm mb-0  sm:text-gray-light sm:font-1
-        sm:text-sm sm:mb-0 
+        sm:text-sm sm:mb-2.5 
       buttonType: secondary
     background:
       fillStyles: bg-white

@@ -20,12 +20,12 @@ blocks:
     label: ''
     headline: IPFS Camp 2022
     subhead: 'Oct 28-30, 2022 • Lisbon, Portugal'
-    body: "IPFS Camp 2022 is a gathering for the entire IPFS community: devs, operators, implementers, researchers – and you!\nJoin us for talks, workshops, discussion circles, hacking time, and more, all focused on celebrating and advancing IPFS.\n\nTracks include:&#x20;\n\n\nContent Routing · Creatives & Artists & IPFS · Growing with IPFS · IPFS Implementers · IPFS Operators ·\_ IPFS User & Dev Tools for Fun & Awesome · IPFS Users Showcase · Learning IPFS · libp2p Builders · libp2p & IPFS Privacy · Measurement & Performance · New Problems in Decentralized Network Research · & more!\n"
+    body: "IPFS Camp 2022 is a gathering for the entire IPFS community: devs, operators, implementers, researchers – and you!\nJoin us for talks, workshops, discussion circles, hacking time, and more, all focused on celebrating and advancing IPFS.\n\nTracks include:&#x20;\n\nContent Routing · Creatives & Artists & IPFS · Growing with IPFS · IPFS Implementers · IPFS Operators ·\_ IPFS User & Dev Tools for Fun & Awesome · IPFS Users Showcase · Learning IPFS · libp2p Builders · libp2p & IPFS Privacy · Measurement & Performance · New Problems in Decentralized Network Research · & more!\n"
     buttons:
       - label: Apply to Speak
         link: 'https://airtable.com/shrOxmXUqwojf0Bjj'
         type: secondary
-      - label: Apply to Lead a Track
+      - label: Propose a New Track
         link: 'https://airtable.com/shrBQqf7YJRPdrgUo'
         type: secondary
     _template: feature
@@ -70,7 +70,7 @@ blocks:
         subhead: ''
         text: >
           Discounted tickets for builders: anyone who is building with IPFS or
-          related technologies, or contributing to IPFS itself.
+          related technologies, or contributing to IPFS project or community.
         link: 'https://lu.ma/ipfscamp22_builders'
         buttonLabel: Purchase Builder Ticket
       - label: ''
@@ -88,10 +88,7 @@ blocks:
         link: 'https://airtable.com/shrum6nLOI23vwIcJ'
         buttonLabel: Apply for Volunteer Ticket
       - headline: IPFS Scholars (Free)
-        text: >
-          This program is designed to provide an opportunity for individuals
-          from underrepresented communities, unique circumstances, or developing
-          areas to connect with and contribute to the IPFS ecosystem.
+        text: "This program\_provides entry, flights, and accommodation\_for individuals from underrepresented communities, unique circumstances, or developing areas to connect with and contribute to the IPFS ecosystem.\n"
         link: 'https://airtable.com/shrd4kSljHYHxmU1b'
         buttonLabel: Apply to IPFS Scholars Program
     navigationLabel: Tickets

@@ -20,7 +20,7 @@ blocks:
     label: ''
     headline: IPFS Camp 2022
     subhead: 'Oct 28-30, 2022 • Lisbon, Portugal'
-    body: "IPFS Camp 2022 is a gathering for the entire IPFS community: devs, operators, implementers, researchers – and you!\nJoin us for talks, workshops, discussion circles, hacking time, and more, all focused on celebrating and advancing IPFS.\n\n**Location:** [Convento do Beato, Lisbon, Portugal](https://goo.gl/maps/Ke34ikHMHuSeqioS6)\n\nTracks include:&#x20;\n\nContent Routing · Creatives & Artists & IPFS · Growing with IPFS · IPFS Implementers · IPFS Operators ·\_ IPFS User & Dev Tools for Fun & Awesome · IPFS Users Showcase · Learning IPFS · libp2p Builders · libp2p & IPFS Privacy · Measurement & Performance · New Problems in Decentralized Network Research · & more!\n"
+    body: "IPFS Camp 2022 is a gathering for the entire IPFS community: devs, operators, implementers, researchers – and you!\nJoin us for talks, workshops, discussion circles, hacking time, and more, all focused on celebrating and advancing IPFS.\n\n**Location:** [Convento do Beato, Lisbon, Portugal](https://goo.gl/maps/Ke34ikHMHuSeqioS6)\n\n**Tracks include: **\n\nContent Routing · Creatives & Artists & IPFS · Growing with IPFS · IPFS Implementers · IPFS Operators ·\_ IPFS User & Dev Tools for Fun & Awesome · IPFS Users Showcase · Learning IPFS · libp2p Builders · libp2p & IPFS Privacy · Measurement & Performance · New Problems in Decentralized Network Research · & more!\n"
     buttons:
       - label: Apply to Speak
         link: 'https://airtable.com/shrOxmXUqwojf0Bjj'

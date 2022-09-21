@@ -1,6 +1,6 @@
 {
   "siteUrl": "2022.ipfs.camp",
-  "gtmId": "",
+  "gtmId": "GTM-KS6XFW3",
   "favicon": "https://res.cloudinary.com/protocolai/image/upload/v1661533809/ipfs-favicon_wmsq2f.png",
   "desktopWidth": "1200",
   "colors": {
@@ -83,7 +83,7 @@
       "label": "",
       "headline": "",
       "subhead": "",
-      "body": "[IPFS Website](https://ipfs.tech/) | [Forum](https://discuss.ipfs.tech/) | [Code of Conduct](https://camp.ipfs.io/code-of-conduct)\n\n\nThis website is hosted on IPFS.\n",
+      "body": "[IPFS Website](https://ipfs.tech/) | [Forum](https://discuss.ipfs.tech/) | [Code of Conduct](https://camp.ipfs.io/code-of-conduct)\n\nThis website is hosted on IPFS.\n",
       "_template": "banner"
     }
   ]

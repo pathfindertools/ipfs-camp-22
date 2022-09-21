@@ -125,20 +125,17 @@ export const Layout = ({
             }}
           />
 
-          {/* Google Analytics */}
-          <script async src={`https://www.googletagmanager.com/gtag/js?id=${globalData?.gtmId}`} />
+          {/* Google Tag Manager */}
           <script
             dangerouslySetInnerHTML={{
               __html: `
               if (document.location.hostname === "${globalData?.siteUrl}") {
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', '${globalData?.gtmId}', {
-                    page_path: window.location.pathname,
-                  });
-                }
-              `,
+                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({‘gtm.start’:
+                  new Date().getTime(),event:‘gtm.js’});var f=d.getElementsByTagName(s)[0],
+                  j=d.createElement(s),dl=l!=‘dataLayer’?‘&l=‘+l:‘’;j.async=true;j.src=
+                  ’https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                  })(window,document,‘script’,‘dataLayer’,‘${globalData?.gtmId}’);  
+              }`,
             }}
           />
 
@@ -149,6 +146,16 @@ export const Layout = ({
             <link href={googleFontsLink(globalData?.fonts)} rel="stylesheet"></link>
           )}
         </Head>
+        
+        {/* Google Tag Manager */}
+        <noscript
+          dangerouslySetInnerHTML={{
+            __html: `
+            if (document.location.hostname === "${globalData?.siteUrl}") {
+              <iframe src=“https://www.googletagmanager.com/ns.html?id=${globalData?.gtmId}” height=“0" width=“0” style=“display:none;visibility:hidden”></iframe>
+            }`,
+          }}
+        />
 
         <div className={`min-h-screen flex flex-col`}>
           <Header blocks={pageData?.blocks} globalData={globalData} />

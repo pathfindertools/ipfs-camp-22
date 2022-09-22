@@ -146,7 +146,9 @@ export const Layout = ({
         </Head>
         
         {/* Google Tag Manager */}
-        <iframe src={`https://www.googletagmanager.com/ns.html?id=${globalData?.gtmId}`} height="0" width="0" style={{display: "none", visibility: "hidden"}}></iframe>
+        <noscript>
+          <iframe src={`https://www.googletagmanager.com/ns.html?id=${globalData?.gtmId}`} height="0" width="0" style={{display: "none", visibility: "hidden"}}></iframe>
+        </noscript>
 
         <div className={`min-h-screen flex flex-col`}>
           <Header blocks={pageData?.blocks} globalData={globalData} />
